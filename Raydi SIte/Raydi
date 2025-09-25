@@ -1,0 +1,15 @@
+├── client/                 # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   └── App.js
+│   └── package.json
+├── server/                 # Express backend
+│   ├── routes/
+│   ├── views/
+│   ├── public/
+│   └── package.json
+├── package.json            # Root package.json
+└── README.md

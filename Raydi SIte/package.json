@@ -1,0 +1,16 @@
+{
+  "name": "solsniper-pro",
+  "version": "1.0.0",
+  "description": "SolSniper Pro Website - Advanced Telegram Trading Bot",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

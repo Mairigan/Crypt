@@ -1,0 +1,14 @@
+[raydium]
+amm_program_id = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+clmm_program_id = "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK"
+
+[jupiter]
+api_url = "https://quote-api.jup.ag/v6"
+
+[dex_screener]
+api_url = "https://api.dexscreener.com/latest/dex"
+
+[logging]
+level = "info"
+file = "sniper.log"
+ 
